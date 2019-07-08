@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pruebas';
+
+
+
+
+public myOutputEvent (data:any):void{
+  console.log('Hola alumnos');
+}
+
+
+
 }
